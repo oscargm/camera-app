@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camera app</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <section id="container">
+      <h4 id="title">Camera app</h4>
+      <div id="imageStream">
+        <div id="modeSwitcher" class="control">
+          <div id="still" class="mode-icon"></div>
+          <div id="video" class="mode-icon"></div>
+          <div id="timelapse" class="mode-icon"></div>
+        </div>
+        <div id="exposureSettings" class="control">
+          <div>
+            <label for="autoExposure">Auto </label>
+            <input name="autoExposure" type="checkbox" />
+          </div>
+          <div>
+            <div id="speedSettings">
+              <input
+                name="speed"
+                type="range"
+                min="0,00025"
+                max="1"
+                value="0,05"
+                step="0,00025"
+                orient="vertical"
+              />
+            </div>
+            <div id="isoSettings">
+              <input
+                name="iso"
+                type="range"
+                min="100"
+                max="800"
+                value="100"
+                step="100"
+                orient="vertical"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

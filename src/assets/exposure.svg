@@ -1,0 +1,6 @@
+<!-- Courtesy of https://www.flaticon.com/authors/fjstudio-->
+<svg height="512" viewBox="0 0 192 192" width="512"
+    xmlns="http://www.w3.org/2000/svg">
+    <path d="m112 128h48v16h-48z"/>
+    <path d="m176 0h-160a16.019 16.019 0 0 0 -16 16v160a16.019 16.019 0 0 0 16 16h160a16.019 16.019 0 0 0 16-16v-160a16.019 16.019 0 0 0 -16-16zm-144 48h16v-16h16v16h16v16h-16v16h-16v-16h-16zm144 128h-160l160-160z"/>
+</svg>
